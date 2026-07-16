@@ -1,6 +1,6 @@
 baseURL = "https://meliodaseren.github.io/"
 languageCode = "zh-tw"
-title = "Eren's Blog"
+title = "Blog"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -11,7 +11,7 @@ pagination.pagerSize = 10
 
 [params]
   env = "production"
-  title = "Eren's Blog"
+  title = "Blog"
   description = "個人部落格，記錄想法與筆記"
   keywords = ["Blog", "個人部落格"]
   author = "Eren"
