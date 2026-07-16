@@ -1,0 +1,47 @@
+baseURL = "https://meliodaseren.github.io/"
+languageCode = "zh-tw"
+title = "Eren's Blog"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableEmoji = true
+hasCJKLanguage = true
+
+pagination.pagerSize = 10
+
+[params]
+  env = "production"
+  title = "Eren's Blog"
+  description = "個人部落格，記錄想法與筆記"
+  keywords = ["Blog", "個人部落格"]
+  author = "Eren"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  disableSpecial1stPost = true
+
+  [params.homeInfoParams]
+    Title = "哈囉 👋"
+    Content = "這裡是我的個人部落格，用來記錄一些想法、筆記與學習過程。"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "關於我"
+    url = "/about/"
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
