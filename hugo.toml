@@ -12,10 +12,10 @@ pagination.pagerSize = 10
 [params]
   env = "production"
   title = "Blog"
-  description = "個人部落格，記錄想法與筆記"
-  keywords = ["Blog", "個人部落格"]
+  description = ""
   author = "Eren"
-  defaultTheme = "auto"
+  defaultTheme = "dark"
+  disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -23,10 +23,6 @@ pagination.pagerSize = 10
   ShowCodeCopyButtons = true
   ShowToc = true
   disableSpecial1stPost = true
-
-  [params.homeInfoParams]
-    Title = "哈囉 👋"
-    Content = "這裡是我的個人部落格，用來記錄一些想法、筆記與學習過程。"
 
 [menu]
   [[menu.main]]
