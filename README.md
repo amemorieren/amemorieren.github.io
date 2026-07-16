@@ -1,12 +1,12 @@
-# Eren's Blog
+# Blog
 
 使用 [Hugo](https://gohugo.io/) 搭配 [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主題建立的個人部落格。
 
 ## 本機開發
 
 ```bash
-git clone --recurse-submodules https://github.com/amemorieren/meliodaseren.github.io.git
-cd meliodaseren.github.io
+git clone --recurse-submodules https://github.com/amemorieren/amemorieren.github.io.git
+cd amemorieren.github.io
 hugo server -D
 ```
 
