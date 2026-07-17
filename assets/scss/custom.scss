@@ -1,0 +1,25 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+/* Pastel palette for the rotating category badge colors on the article list */
+.article-list article {
+    &:nth-child(5n + 1) .article-category a {
+        background: #d6e7f5;
+        color: #2c3e50;
+    }
+    &:nth-child(5n + 2) .article-category a {
+        background: #f8dee6;
+        color: #2c3e50;
+    }
+    &:nth-child(5n + 3) .article-category a {
+        background: #faf0d2;
+        color: #2c3e50;
+    }
+    &:nth-child(5n + 4) .article-category a {
+        background: #e4e4e6;
+        color: #2c3e50;
+    }
+    &:nth-child(5n + 5) .article-category a {
+        background: #e0dcf3;
+        color: #2c3e50;
+    }
+}

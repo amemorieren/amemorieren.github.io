@@ -1,7 +1,7 @@
 baseURL = "https://amemorieren.github.io/"
 title = "Blog"
 theme = "stack"
-defaultContentLanguage = "zh-hant-tw"
+defaultContentLanguage = "zh-tw"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -9,8 +9,8 @@ hasCJKLanguage = true
 
 pagination.pagerSize = 10
 
-[languages.zh-hant-tw]
-  languageCode = "zh-hant-tw"
+[languages.zh-tw]
+  languageCode = "zh-tw"
   languageName = "正體中文"
   weight = 1
   title = "Blog"
