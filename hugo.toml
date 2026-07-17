@@ -20,7 +20,7 @@ pagination.pagerSize = 10
   rssFullContent = true
 
   [params.sidebar]
-    subtitle = "讀書、漫畫、動畫、實況心得筆記"
+    subtitle = "筆記"
 
   [params.article]
     [params.article.license]
