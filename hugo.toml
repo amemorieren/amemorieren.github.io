@@ -20,7 +20,7 @@ pagination.pagerSize = 10
   rssFullContent = true
 
   [params.sidebar]
-    subtitle = "　　　　　　　　　　　　　　　　　　　　"
+    subtitle = "　　　　　　　　　　　　　　　　"
     avatar = "img/avatar.png"
     emoji = "📖"
 
