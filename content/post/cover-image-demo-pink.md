@@ -3,7 +3,7 @@ title: "封面圖範例：粉色"
 description: "示範封面圖效果"
 date: 2026-07-17T03:00:00Z
 draft: false
-image: "/images/cover-pink.png"
+image: "/images/cover-2.png"
 categories: ["雜記"]
 tags: ["範例"]
 ---

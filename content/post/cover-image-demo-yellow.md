@@ -3,7 +3,7 @@ title: "封面圖範例：黃色"
 description: "示範封面圖效果"
 date: 2026-07-17T02:00:00Z
 draft: false
-image: "/images/cover-yellow.png"
+image: "/images/cover-3.png"
 categories: ["雜記"]
 tags: ["範例"]
 ---

@@ -3,7 +3,7 @@ title: "第一篇範例文章"
 description: "示範這個部落格的排版效果"
 date: 2026-07-16T10:27:08Z
 draft: false
-image: "/images/cover-blue.png"
+image: "/images/cover-1.png"
 categories: ["雜記"]
 tags: ["範例", "Hugo"]
 ---
