@@ -21,6 +21,8 @@ pagination.pagerSize = 10
 
   [params.sidebar]
     subtitle = "筆記"
+    avatar = "img/avatar.png"
+    emoji = "📖"
 
   [params.article]
     [params.article.license]
