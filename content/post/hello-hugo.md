@@ -1,7 +1,9 @@
 ---
 title: "第一篇範例文章"
+description: "示範這個部落格的排版效果"
 date: 2026-07-16T10:27:08Z
 draft: false
+categories: ["雜記"]
 tags: ["範例", "Hugo"]
 ---
 
@@ -28,8 +30,14 @@ tags: ["範例", "Hugo"]
 ## 程式碼區塊
 
 ```bash
-hugo new posts/my-post.md
+hugo new post/my-post.md
 hugo server -D
+```
+
+## 圖片並排（多圖自動變成相簿）
+
+```markdown
+![說明文字1](image1.jpg)  ![說明文字2](image2.jpg)
 ```
 
 ## 連結

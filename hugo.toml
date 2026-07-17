@@ -1,7 +1,7 @@
 baseURL = "https://amemorieren.github.io/"
-languageCode = "zh-tw"
+languageCode = "zh-hant-tw"
 title = "Blog"
-theme = "PaperMod"
+theme = "stack"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -10,34 +10,44 @@ hasCJKLanguage = true
 pagination.pagerSize = 10
 
 [params]
-  env = "production"
-  title = "Blog"
-  description = ""
-  author = "Eren"
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  disableSpecial1stPost = true
+  mainSections = ["post"]
+  rssFullContent = true
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    identifier = "about"
-    name = "關於我"
-    url = "/about/"
-    weight = 20
+  [params.sidebar]
+    subtitle = "讀書、漫畫、動畫、實況心得筆記"
+
+  [params.article]
+    [params.article.license]
+      enabled = false
+
+  [params.widgets]
+    homepage = [
+      { type = "search" },
+      { type = "archives", params = { limit = 5 } },
+      { type = "categories", params = { limit = 10 } },
+      { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+  [params.comments]
+    enabled = false
+
+  [params.cookies]
+    enabled = false
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
   [markup.highlight]
     noClasses = false
-  [markup.goldmark.renderer]
-    unsafe = true
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
