@@ -3,23 +3,23 @@
 /* Pastel palette for the rotating category badge colors on the article list */
 .article-list article {
     &:nth-child(5n + 1) .article-category a {
-        background: #d6e7f5;
+        background: #FDCEDF;
         color: #2c3e50;
     }
     &:nth-child(5n + 2) .article-category a {
-        background: #f8dee6;
+        background: #D2DAFF;
         color: #2c3e50;
     }
     &:nth-child(5n + 3) .article-category a {
-        background: #faf0d2;
+        background: #CBF1F5;
         color: #2c3e50;
     }
     &:nth-child(5n + 4) .article-category a {
-        background: #e4e4e6;
+        background: #FFF5E4;
         color: #2c3e50;
     }
     &:nth-child(5n + 5) .article-category a {
-        background: #e0dcf3;
+        background: #F1F6F9;
         color: #2c3e50;
     }
 }
