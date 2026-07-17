@@ -1,8 +1,9 @@
-# Blog
 
-使用 [Hugo](https://gohugo.io/) 搭配 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 主題建立的個人部落格。
+Build with [Hugo](https://gohugo.io/)
 
-## 新增文章
+Theme [Stack](https://github.com/CaiJimmy/hugo-theme-stack) designed by Jimmy
+
+## New post
 
 ```bash
 hugo new post/my-new-post.md
